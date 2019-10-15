@@ -13,7 +13,8 @@ echo -e "\033[0;31m$0 $@\033[0m"
 let i=0
 while [[ $i -lt $TIMEOUT ]]
 do 
-  echo -n -e "\033[0;3$(($i%10))m."
+  echo -n -e "\r\033[0;3$(($i%10))m. "
+  echo $i
   sleep 1
   let i=i+1
 done

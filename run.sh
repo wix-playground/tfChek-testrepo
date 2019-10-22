@@ -9,7 +9,7 @@ echo -e "\033[0;33mThe command will continue to run for $TIMEOUT seconds\033[0m"
 echo -e "\033[0;32mCommand has been run with following arguments\033[0m"
 
 echo -e "\033[0;31m$0 $@\033[0m"
-
+echo 
 let i=0
 while [[ $i -lt $TIMEOUT ]]
 do 

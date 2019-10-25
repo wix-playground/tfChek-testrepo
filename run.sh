@@ -15,7 +15,7 @@ while [[ $i -lt $TIMEOUT ]]
 do 
   echo -n -e "\r\033[0;3$(($i%10))m. "
   echo $i
-  sleep 1
+  sleep 2
   let i=i+1
 done
 

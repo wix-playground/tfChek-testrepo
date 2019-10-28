@@ -1,6 +1,6 @@
 #!/bin/bash
 
-: "${TIMEOUT:=30}"
+: "${TIMEOUT:=31}"
 
 echo -e "\033[0;35mThis is a mock run.sh for tfChek\033[0m"
 

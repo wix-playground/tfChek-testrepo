@@ -19,6 +19,7 @@ do
   let i=i+1
 done
 
+echo "Failing for a purpose" ; exit 1
 echo -e "\033[0;32mEnd of the program\033[0m"
  
 

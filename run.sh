@@ -14,7 +14,6 @@ let i=0
 while [[ $i -lt $TIMEOUT ]]
 do 
   echo -n -e "\r\033[0;3$(($i%10))m. "
-  exit 4
   echo $i
   sleep 1
   let i=i+1

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-: "${TIMEOUT:=31}"
+: "${TIMEOUT:=34}"
 
 echo -e "\033[0;35mThis is a mock run.sh for tfChek\033[0m"
 

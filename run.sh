@@ -11,6 +11,7 @@ echo -e "\033[0;32mCommand has been run with following arguments\033[0m"
 
 echo -e "\033[0;31m$0 $@\033[0m"
 echo 
+echo "TRUURH"
 let i=0
 while [[ $i -lt $TIMEOUT ]]
 do 

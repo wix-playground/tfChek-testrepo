@@ -17,7 +17,8 @@ do
   echo -n -e "\r\033[0;3$(($i%10))m. "
   echo $i
   sleep 1
-  let i=i+1
+  echo OLOLO
+  let i=i+2
 done
 
 echo -e "\033[0;32mEnd of the program\033[0m"
